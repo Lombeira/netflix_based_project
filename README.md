@@ -1,2 +1,2 @@
-# netflix_based_project
-Webapp inspirado no Netflix
+# Netflix Based Project
+Web app inspirado no Netflix
