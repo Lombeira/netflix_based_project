@@ -13,7 +13,7 @@
 
 body{
     background: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color:#aaa;    
 }
 
@@ -44,9 +44,9 @@ header nav a:hover{
 
 .streamer-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url();
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('../img/shroud.png');
     
-    height: 500px;
+    height: 600px;
     background-size: cover;
 
     display: flex;
@@ -64,7 +64,6 @@ header nav a:hover{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
-
 }
 
 .botao{
@@ -87,4 +86,19 @@ header nav a:hover{
 
 .botao i {
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.streamer-principal .container{
+    width: 50%;
+}
+
+.box-streamer{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
